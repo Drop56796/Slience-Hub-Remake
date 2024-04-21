@@ -1,5 +1,5 @@
 local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/sdhdbxub/sdhdbxub/main/Wh7Wa8Tb"))()
-local window = library:new("欢迎")
+local window = library:new("欢迎 Version:V2正式")
 
 local creds = window:Tab("看",'7734068321')
 
