@@ -1,5 +1,5 @@
 local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/sdhdbxub/sdhdbxub/main/Wh7Wa8Tb"))()
-local window = library:new("欢迎")
+local window = library:new("Slience X 光 欢迎")
 
 local creds = window:Tab("看",'7734068321')
 
@@ -12,6 +12,7 @@ local bin = creds:section("玩家信息",true)
     bin:Label("借的UI")
     bin:Label("沉默 and 光")
     bin:Label("模式脚本")
+    bin:Label("版本Version:2.0Remake Beta")
     
 local credits = creds:section("关闭",true)
 
@@ -138,3 +139,14 @@ end)
 credits:Button("没有火焰，seek预测…",function()
     loadstring(game:HttpGet("https://pastebin.com/raw/kXanyBLY"))()
 end)
+
+local creds = window:Tab("复制QQ号:slience 和光",'7734068321')
+
+local credits = creds:section("QQ",true)
+    credits:Button("slience",function()
+    setclipboard("3756646428")
+end)
+    credits:Button("光",function()
+    setclipboard("3791422492")
+end)
+
